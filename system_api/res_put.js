@@ -8,10 +8,11 @@ function res_put(req, res, next) {
 
 		let result = {
 			code: code,
-			state: code == 200 ? "success" : "failure",
+			state: code == 200 ? "ok" : "fail",
 			data: data,
-			back_time: timer,
+			this_time: timer,
 		};
+
 		if (code != 200) {
 			res.data = "";
 			// res.message = lang(801);

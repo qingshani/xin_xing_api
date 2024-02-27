@@ -1,13 +1,16 @@
 {
-  "name": "sc",
+  "name": "xin_xing_api",
   "version": "1.0.0",
   "description": "",
-  "main": "b.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "s": "nodemon server2.js",
     "apii": "node ./system_api/create_new_api"
   },
   "author": "",
-  "license": "ISC"
+  "license": "",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
 }

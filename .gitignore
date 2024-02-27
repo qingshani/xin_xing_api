@@ -3,4 +3,5 @@
 #launch.json folder
 .vscode/
 open_api/*
-./git/
+.git/
+node_modules/*
